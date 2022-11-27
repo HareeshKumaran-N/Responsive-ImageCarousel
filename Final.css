@@ -1,0 +1,129 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+body{
+
+    background-color: rgb(20, 4, 45);
+}
+
+.carousel
+{
+    position:relative;
+    height: 450px;
+    width:70%;
+    margin: 0 auto;
+    /* background-color: black; */
+   
+   
+
+}
+
+.carousel_image
+{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+   
+
+}
+
+.carousel_track-container
+{
+
+ position: relative;   
+ background-color: rgb(238, 249, 238);
+ overflow: hidden;
+ height: 100%;
+
+}
+
+.carousel_track
+{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    position: relative;
+    height: 100%;
+    transition: transform 1s;
+}
+
+.carousel_slide
+{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width: 100%;
+   
+
+
+}
+.carousel_button
+{
+   position: absolute;
+   border:none;
+   padding: 0.5%;
+   border-radius: 30px;
+ 
+   top:50%;
+   z-index: 4;
+   transform: translateY(-50%);
+}
+.carousel_button>span
+{ 
+    font-size:larger;
+}
+
+.carousel_button:hover{
+    cursor:pointer;
+   
+    background-color: rgb(255, 208, 208);
+    color:aliceblue;
+    /* transition:0.35s ; */
+}
+
+.forwardBtn
+{
+
+right: 0;
+}
+
+.backwardBtn
+{
+left:0;
+
+
+}
+
+.buttonHider
+{
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px)
+{
+    .carousel
+    {
+        position:relative;
+        height: 350px;
+        width:60%;
+        margin: 0 auto;
+        /* background-color: black; */
+    }
+}
+
+@media screen and (max-width:600px)
+{
+.carousel
+{
+    position:relative;
+    height: 250px;
+    width:80%;
+    margin: 0 auto;
+    /* background-color: black; */
+}
+}

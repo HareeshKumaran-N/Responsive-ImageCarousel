@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Carousel</title>
+    <link rel="stylesheet" href="Final.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel_button backwardBtn " id="prevBtn">
+            <span class="material-symbols-outlined">arrow_back_ios</span>
+        </button>
+        <div class="carousel_track-container">
+            <ul class="carousel_track">
+                <li class="carousel_slide current-slide"><img class="carousel_image" src="./images/1.jpg"></li>
+                <li class="carousel_slide"><img class="carousel_image" src="./images/2.jpeg"></li>
+                <li class="carousel_slide"><img class="carousel_image" src="./images/3.jpeg"></li>
+                <li class="carousel_slide"><img class="carousel_image" src="./images/4.jpeg"></li>
+                <li class="carousel_slide"><img class="carousel_image" src="./images/5.jpg"></li>
+            </ul>
+        </div>
+        <button class="carousel_button  forwardBtn"  id="nextBtn">
+            <span class="material-symbols-outlined">arrow_forward_ios</span>
+        </button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
